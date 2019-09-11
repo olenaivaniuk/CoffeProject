@@ -32,7 +32,7 @@ public class Cafe {
 
     public void requirePositive(int value) {
         if(value < 1) {
-            throw new IllegalStateException();
+            throw new IllegalArgumentException();
         }
     }
 
